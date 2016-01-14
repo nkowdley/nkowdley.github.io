@@ -1,0 +1,7 @@
+/*Custom CSS*/
+/*Override the header image with my own*/
+header {
+  background-image: url(../img/header.png);
+}
+
+/*Rename About to Resume */
