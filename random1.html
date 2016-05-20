@@ -1,0 +1,443 @@
+<html>
+<head>
+    <link href="http://mdipierro.github.io/stupid.css/stupid.css" rel="stylesheet" type="text/css">
+    <link href="../stupid.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+
+    <style>
+      header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .gradient {background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACWCAYAAAAfduJyAAAAaUlEQVQoFa2SQQrAIAwEU/v/P7fdHgYHBQV7kCSzuxFp1YHvam8IR31t62fQVKLTNkD07pMlgQIIWKCy0U69kYQiVrVFJWavAHvzpqFImHGXfTpKGc3YAU0FSLVA0eGNTV7ioXhF/3/yAbOjAgrSfBhhAAAAAElFTkSuQmCC);background-size: auto 100%;background-repeat: repeat-x;background-position: bottom;}
+      h1, h2, h3, h4 {text-transform:none }
+      .ham {padding-left:20px}
+      #jumbotron { text-shadow: 2px 2px 3px rgba(0,0,0,0.6); }
+      p, li {
+      font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvet\
+        ica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        line-height:1.5em;
+        font-siz: 1.3em;
+      }
+      #jumbotron {
+        height: 500px;
+      }
+      #jumbotron, #jumbotron2 {
+        background: url(https://unsplash.it/1200/600/?random);
+        background-size: cover;
+      }
+      @media (max-width:499px) {
+        #jumbotron div {
+           width: 400px;
+           margin-left:-200px;
+        }
+        #jumbotron, #jumbotron2 {
+           font-size: 0.6em;
+        }
+      }
+      #jumbotron div {
+        left: 50%;
+        color: white;
+        width: 600px;
+        top: 20px;
+        margin-left:-300px;
+        text-align:center;
+      }
+      img {width:300px; height; 300px}
+      .card {width:200px; height: 300; }
+      iframe {height:400px; pointer-events: none;}
+      .oval {width:120px;height:120px;background-size:cover}
+      .high {position:relative!important; height:50px; text-align:right}
+      input, textarea { margin-top:10px!important;}
+      input.large {font-size: 1.5em}
+    </style>
+  </head>
+  <body>
+    <header class="color pink">
+      <div class="container max900">
+        <div class="fill middle">
+          <span class="ham">
+            <label class="fa fa-bars" for="left-menu"></label>
+          </span>
+          <div class="burger accordion">
+            <input id="left-menu" type="checkbox">
+            <ul class="menu dark">
+              <li style="color: white;">
+                <a style="color: white;" href="http://mdipierro.github.io/stupid.css/index.html">Stupid.css</a>
+              </li>
+              <li style="color: white;">
+                <a style="color: white;">Submenu</a>
+                <ul>
+                  <li style="color: white;"><a style="color: white;">Sub Menu 1</a></li>
+                  <li style="color: white;"><a style="color: white;">Sub Menu 2</a></li>
+                  <li style="color: white;"><a style="color: white;">Sub Menu 3</a>
+                </li></ul>
+              </li>
+            </ul>
+            <ul class="menu right dark">
+              <li style="color: white;"><a style="color: white;">About</a></li>
+              <li style="color: white;"><a style="color: white;">Services</a></li>
+              <li style="color: white;"><a style="color: white;">Contract</a></li>
+              <li style="color: white;">
+                <a style="color: white;"><label for="drawer"><i class="fa fa-search pulse"></i></label></a>
+              </li>
+              <li style="color: white;">
+                <a style="color: white;"><i class="fa fa-bell"></i></a>
+                <ul>
+                  <li style="color: white;"><a style="color: white;" class="green">Ok</a></li>
+                  <li style="color: white;"><a style="color: white;" class="yellow">Warning</a></li>
+                  <li style="color: white;"><a style="color: white;" class="red">Error</a></li>
+                </ul>
+              </li>
+              <li style="color: white;">
+                <a style="color: white;"><i class="fa fa-group"></i></a>
+                <ul>
+                  <li style="color: white;"><a style="color: white;">Login</a></li>
+                  <li style="color: white;"><a style="color: white;">Logout</a></li>
+                  <li style="color: white;"><a style="color: white;">Etc Etc</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="accordion">
+      <input id="drawer" type="checkbox">
+      <div>
+        <div class="padded middle">
+          <div class="padded">
+            <input class="large" placeholder="page search" type="text">
+          </div>
+          <p>NONE OF THE EFFECTS ON THIS PAGE USE JAVASCRIPT</p>
+          <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+        </div>
+      </div>
+    </div>
+    <div class="progress fill"><div class="indeterminate"></div></div>
+    <main>
+      <div style="display: none;" class="container relative" id="jumbotron">
+        <div>
+          <h1>Random Page</h1>
+          <h2>Made with <a style="color: rgb(238, 110, 115);" href="http://mdipierro.github.io/stupid.css/index.html">stupid.css</a></h2>
+          <h3>Even random pages are beautiful!</h3>
+          <center class="padded">
+            <a style="color: white;" class="btn large download rounded pink"><i class="fa fa-download"></i></a>
+            <a style="color: white;" class="btn large rounded pink" href="random.html">Randomize!</a>
+            <a style="color: white;" class="btn large rounded pink" href="#modal">Learn more</a>
+          </center>
+          <a style="color: rgb(238, 110, 115);" class="btn white rounded" href="https://twitter.com/mdipierro">
+            <i class="fa fa-twitter fa-fw"></i>
+            twitter
+          </a>
+          <a style="color: rgb(238, 110, 115);" class="btn white rounded" href="https://www.linkedin.com/in/massimodipierro">
+            <i class="fa fa-linkedin fa-fw"></i>
+            linkedin
+          </a>
+          <a style="color: rgb(238, 110, 115);" class="btn white rounded" href="https://github.com/mdipierro">
+            <i class="fa fa-github fa-fw"></i>
+            github
+          </a>
+        </div>
+      </div>
+      <div style="display: block;" class="color pink" id="jumbotron2">
+        <div class="container max900">
+          <div class="fill">
+            <div class="padded">
+              <div class="glass padded">
+                <h2>Random Page</h2>
+                <h3>Made with <a style="color: rgb(238, 110, 115);" href="http://mdipierro.github.io/stupid.css/index.html">stupid.css</a></h3>
+                <h3>Even random pages are beautiful!</h3>
+                <div class="spaced">
+                  <a style="color: white;" class="btn large download rounded pink"><i class="fa fa-download"></i></a>
+                  <a style="color: white;" class="btn large rounded pink" href="random.html">Randomize!</a>
+                  <a style="color: white;" class="btn large rounded pink" href="#modal">Learn more</a>
+                </div>
+                <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+                <a style="color: rgb(238, 110, 115);" class="btn white rounded" href="https://twitter.com/mdipierro">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  twitter
+                </a>
+                <a style="color: rgb(238, 110, 115);" class="btn white rounded" href="https://www.linkedin.com/in/massimodipierro">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  linkedin
+                </a>
+                <a style="color: rgb(238, 110, 115);" class="btn white rounded" href="https://github.com/mdipierro">
+                  <i class="fa fa-github fa-fw"></i>
+                  github
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: none;" class="silver">
+        <div class="container max900">
+          <div class="half">
+            <div class="padded">
+              <h4 class="rt">Lorem Ipsum...</h4>
+              <h5 class="rt">Lorem Ipsum is simply...</h5>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+              <div class="tags">
+                <span class="pink">tag1</span>
+                <span class="pink">tag2</span>
+                <span class="pink">tag3</span>
+              </div>
+            </div>
+          </div>
+          <div class="half">
+            <div class="padded center">
+              <img style="border-radius: 50%;" class="rounded" src="https://unsplash.it/300/300/?random">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: none;" class="white">
+        <div class="container max900">
+          <div class="half">
+            <div class="padded center">
+              <img style="border-radius: 50%;" class="rounded" src="https://unsplash.it/300/301/?random">
+            </div>
+          </div>
+          <div class="half">
+            <div class="padded">
+              <h4 class="rt">Lorem Ipsum...</h4>
+              <h5 class="rt">Lorem Ipsum is simply...</h5>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+              <div class="tags">
+                <span class="pink">tag1</span>
+                <span class="pink">tag2</span>
+                <span class="pink">tag3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: none;" class="silver">
+        <div class="container max900">
+          <div class="half">
+            <div class="padded">
+              <h4 class="rt">Lorem Ipsum...</h4>
+              <h5 class="rt">Lorem Ipsum is simply...</h5>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+              <div class="tags">
+                <span class="off">tag1</span>
+                <span class="off">tag2</span>
+                <span class="off">tag3</span>
+              </div>
+            </div>
+          </div>
+          <div class="half">
+            <div class="padded center">
+              <img style="border-radius: 50%;" class="rounded" src="https://unsplash.it/400/400/?random">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: block;" class="white">
+        <div class="container max900">
+          <div class="third">
+            <div class="padded">
+              <center class="spaced">
+                <i class="fa fa-gear fa-5x"></i>
+              </center>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+            </div>
+          </div>
+          <div class="third">
+            <div class="padded">
+              <center class="spaced">
+                <i class="fa fa-group fa-5x"></i>
+              </center>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+            </div>
+          </div>
+          <div class="third">
+            <div class="padded">
+              <center class="spaced">
+                <i class="fa fa-eye fa-5x"></i>
+              </center>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: block;" class="white">
+        <div class="container max900">
+          <div class="third">
+            <div class="padded">
+              <center>
+                <div class="card">
+                  <div>
+                    <div class="white padded">
+                      <button class="btn oval rounded pink" style="background: transparent url(&quot;https://unsplash.it/120/120/?random&quot;) repeat scroll 0% 0%; color: white;"></button>
+                      <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p><p>
+                    </p></div>
+                    <div class="black padded">
+                      <h4 class="rt">Lorem Ipsum...</h4>
+                      <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p><p>
+                    </p></div>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+          <div class="third">
+            <div class="padded">
+              <center>
+                <div class="card">
+                  <div>
+                    <div class="white padded">
+                      <button class="btn oval rounded pink" style="background: transparent url(&quot;https://unsplash.it/120/121/?random&quot;) repeat scroll 0% 0%; color: white;"></button>
+                      <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p><p>
+                    </p></div>
+                    <div class="black padded">
+                      <h4 class="rt">Lorem Ipsum...</h4>
+                      <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p><p>
+                    </p></div>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+          <div class="third">
+            <div class="padded">
+              <center>
+                <div class="card">
+                  <div>
+                    <div class="white padded">
+                      <button class="btn oval rounded pink" style="background: transparent url(&quot;https://unsplash.it/120/122/?random&quot;) repeat scroll 0% 0%; color: white;"></button>
+                      <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p><p>
+                    </p></div>
+                    <div class="black padded">
+                      <h4 class="rt">Lorem Ipsum...</h4>
+                      <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p><p>
+                    </p></div>
+                  </div>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: none;" class="white">
+        <div class="container max900">
+          <div class="third">
+            <div class="padded">
+              <input placeholder="your name" type="text">
+              <input placeholder="your email" type="text">
+              <textarea placeholder="tell us about you"></textarea>
+            </div>
+          </div>
+          <div class="third">
+            <div class="padded">
+              <h3>Contact Us</h3>
+              <button class="spaced">Submit</button>
+            </div>
+          </div>
+          <div class="third">
+            <div class="padded">
+              <div class="silver padded lifted">
+                <h3>Address</h3>
+                <address>
+                  000 S Michigan Ave<br>
+                  Chicago, IL 60603<br>
+                  Tel. 1-312-000-00000
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: block;" class="container silver">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194152504!2d-74.03927092356082!3d40.759040329429915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1457308636300" style="border:0" allowfullscreen="" frameborder="0" height="400" width="100%"></iframe>
+      </div>
+    </main>
+    <footer style="display: none;" class="color padded pink">
+      <div class="container max900">
+        <div class="fill padded">
+          <ul class="menu dark">
+            <li style="color: white;"><a style="color: white;">Home</a></li>
+            <li style="color: white;"><a style="color: white;">About</a></li>
+            <li style="color: white;"><a style="color: white;">Services</a></li>
+            <li style="color: white;"><a style="color: white;">Contact</a></li>
+          </ul>
+        </div>
+        <div class="fill padded">
+          <p>Copyright � Your Company 2016. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <footer style="display: block;" class="color pink">
+      <div class="container max900">
+        <div class="half">
+          <div class="padded">
+            <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+            <ul class="menu middle dark">
+              <li style="color: white;"><a style="color: white;">Home</a></li>
+              <li style="color: white;"><a style="color: white;">About</a></li>
+              <li style="color: white;"><a style="color: white;">Services</a></li>
+              <li style="color: white;"><a style="color: white;">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="half">
+          <div class="padded">
+            <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+            <p>Copyright � Your Company 2016. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer style="display: none;" class="color pink">
+      <div class="container max900">
+        <div class="third">
+          <div class="padded">
+            <p>Copyright � Your Company 2016.</p>
+            <p>All Rights Reserved</p>
+            <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+          </div>
+        </div>
+        <div class="twothirds">
+          <div class="padded">
+            <ul class="menu dark">
+              <li style="color: white;"><a style="color: white;">Home</a></li>
+              <li style="color: white;"><a style="color: white;">About</a></li>
+              <li style="color: white;"><a style="color: white;">Services</a></li>
+              <li style="color: white;"><a style="color: white;">Contact</a></li>
+            </ul>
+            <br><br>
+            <div class="fill">
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+              <p class="rt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal" id="modal">
+      <div class="twothirds rounded white padded relative">
+        <a style="color: rgb(238, 110, 115);" class="close" href="#modal-stupid-example">�</a>
+        <h2>Random template from stupid.css</h2>
+        <p>
+          This is a random template generator. It uses <a style="color: rgb(238, 110, 115);" href="http://mdipierro.github.io/stupid.css/index.html">stupid.css</a>, a pure CSS library for style and effects.
+        </p>
+        <p>
+          Even random pages are beautiful with <a style="color: rgb(238, 110, 115);" href="http://mdipierro.github.io/stupid.css/index.html">stupid.css</a>!
+        </p>
+        <div class="high">
+          <a style="color: white;" class="close right btn rounded pink" href="#modal-stupid-example">close</a>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
