@@ -52,12 +52,12 @@ $( document ).ready(function() {
     get_home();
   }
   /*if not set on page load, load the correct page based on what was clicked on the header*/
-  $( "#home-button" ).click(get_home);
-  $( "#work-button" ).click(get_work);
-  $( "#contact-button" ).click(get_contact);
-  $( "#project-button" ).click(get_project);
+  $( ".home-button" ).click(get_home);
+  $( ".work-button" ).click(get_work);
+  $( ".contact-button" ).click(get_contact);
+  $( ".project-button" ).click(get_project);
   /*Or set the correct page if one of the icons on the front page was clicked*/
-  $( "#work-icon" ).click(get_work);
-  $( "#contact-icon" ).click(get_contact);
-  $( "#project-icon" ).click(get_project);
+  $( ".work-icon" ).click(get_work);
+  $( ".contact-icon" ).click(get_contact);
+  $( ".project-icon" ).click(get_project);
 });
