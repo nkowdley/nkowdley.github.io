@@ -21,7 +21,11 @@ $( document ).ready(function() {
   }
 
   function get_contact(){
+    $( "#nav-bar" ).removeClass();
+    $( "#nav-bar" ).addClass("green accent-4");
     $( "#content" ).load("contact.html");
+    $( "#footer" ).removeClass();
+    $( "#footer" ).addClass("page-footer green accent-4");
     return;
   }
 
