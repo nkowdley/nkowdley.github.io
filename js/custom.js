@@ -12,7 +12,6 @@ $( document ).ready(function() {
     $( "#content" ).load("projects.html");
     $( "#footer" ).removeClass();
     $( "#footer" ).addClass("page-footer amber darken-4");
-    return;
   }
 
   function get_work() {
@@ -21,7 +20,6 @@ $( document ).ready(function() {
     $( "#content" ).load("work.html");
     $( "#footer" ).removeClass();
     $( "#footer" ).addClass("page-footer deep-purple darken-3");
-    return;
   }
 
   function get_contact(){
@@ -30,7 +28,6 @@ $( document ).ready(function() {
     $( "#content" ).load("contact.html");
     $( "#footer" ).removeClass();
     $( "#footer" ).addClass("page-footer green accent-4");
-    return;
   }
 
   function get_home() {
@@ -39,7 +36,6 @@ $( document ).ready(function() {
     $( "#content" ).load("index.html #content");
     $( "#footer" ).removeClass();
     $( "#footer" ).addClass("page-footer light-blue lighten-1");
-    return;
   }
   /*Check if the url was set on page load*/
   if (window.location.href.indexOf("#work") >= 0) {
@@ -61,7 +57,6 @@ $( document ).ready(function() {
   $( "#contact-button" ).click(get_contact);
   $( "#project-button" ).click(get_project);
   /*Or set the correct page if one of the icons on the front page was clicked*/
-  $( "#home-icon" ).click(get_home);
   $( "#work-icon" ).click(get_work);
   $( "#contact-icon" ).click(get_contact);
   $( "#project-icon" ).click(get_project);
