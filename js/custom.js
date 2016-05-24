@@ -7,7 +7,11 @@
 $( document ).ready(function() {
   /*Functions to load the right content and colors*/
   function get_project() {
+    $( "#nav-bar" ).removeClass();
+    $( "#nav-bar" ).addClass("deep-purple amber darken-4");
     $( "#content" ).load("projects.html");
+    $( "#footer" ).removeClass();
+    $( "#footer" ).addClass("page-footer amber darken-4");
     return;
   }
 
