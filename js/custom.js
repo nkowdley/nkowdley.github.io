@@ -47,6 +47,15 @@ $( document ).ready(function() {
   else if (window.location.href.indexOf("#projects") >= 0) {
     get_project();
   }
+  else if (window.location.href.indexOf("#hackathons") >= 0) {
+    get_project();
+  }
+  else if (window.location.href.indexOf("#coding") >= 0) {
+    get_project();
+  }
+  else if (window.location.href.indexOf("#competitions") >= 0) {
+    get_project();
+  }
   else {
     //go to home page
     get_home();
